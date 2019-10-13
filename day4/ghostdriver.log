@@ -1,0 +1,14 @@
+[INFO  - 2019-06-27T18:35:00.267Z] GhostDriver - Main - running on port 32779
+[INFO  - 2019-06-27T18:35:01.174Z] Session [45d32920-990a-11e9-b1eb-0f1d364f369c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-06-27T18:35:01.174Z] Session [45d32920-990a-11e9-b1eb-0f1d364f369c] - page.customHeaders:  - {}
+[INFO  - 2019-06-27T18:35:01.174Z] Session [45d32920-990a-11e9-b1eb-0f1d364f369c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-06-27T18:35:01.175Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 45d32920-990a-11e9-b1eb-0f1d364f369c
+[ERROR - 2019-06-27T18:35:03.209Z] Session [45d32920-990a-11e9-b1eb-0f1d364f369c] - page.onError - msg: TypeError: Attempting to change access mechanism for an unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-27T18:35:03.210Z] Session [45d32920-990a-11e9-b1eb-0f1d364f369c] - page.onError - stack:
+  defineProperty (https://a.msstatic.com/huya/hd/cdn_libs/performance_report-min.js?v=28%20June,%202019:1)
+  (anonymous function) (https://a.msstatic.com/huya/hd/cdn_libs/performance_report-min.js?v=28%20June,%202019:1)
+  (anonymous function) (https://a.msstatic.com/huya/hd/cdn_libs/performance_report-min.js?v=28%20June,%202019:1)
+
+  phantomjs://platform/console++.js:263 in error
